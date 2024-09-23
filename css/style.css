@@ -1,0 +1,219 @@
+/* Digency HTML Template*/
+
+/************ TABLE OF CONTENTS ***************
+1. Fonts
+2. Reset
+3. Global
+4. Main Header / Style Two / Style Three
+5. Main Slider / Two
+6. Solution Section / Two / Three
+7. Success Section
+8. Counter Section
+9. Fluid Section One
+10. Projects Section
+11. CTA Section
+12. Testimonial Section / Two
+13. Team Section / Two
+14. News Section / Two
+15. CTA Section Two / Three / Four
+16. Main Footer
+17. Services Section
+18. Quote Section
+19. Projects Section Two / Three
+20. Pricing Section
+21. Clients Section
+22. Business Section
+23. Page Title
+24. Services Widgets
+25. Faq Section
+26. Coming Soon Section
+27. Blog Widgets
+28. Not Found
+29. Shop Section
+30. Cart Section
+31. Checkout Section
+32. Map Section
+33. Contact Form Section
+
+**********************************************/
+
+/* 
+	font-family: 'Niramit', sans-serif;
+	font-family: 'Saira', sans-serif;
+*/
+
+@import url("font-awesome.css");
+@import url("flaticon.css");
+@import url("animate.css");
+@import url("owl.css");
+@import url("jquery-ui.css");
+@import url("custom-animate.css");
+@import url("jquery.fancybox.min.css");
+@import url("jquery.bootstrap-touchspin.css");
+@import url("jquery.mCustomScrollbar.min.css");
+
+/***
+
+====================================================================
+	Reset
+====================================================================
+
+ ***/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  border: none;
+  outline: none;
+}
+
+@font-face {
+  font-family: "Conv_AGENCYR";
+  src: url("../fonts/AGENCYR.eot");
+  src: url("../fonts/AGENCYR.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AGENCYR.woff") format("woff"),
+    url("../fonts/AGENCYR.ttf") format("truetype"),
+    url("../fonts/AGENCYR.svg#AGENCYR") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/***
+
+====================================================================
+	Global Settings
+====================================================================
+
+ ***/
+
+body {
+  font-family: "Saira", sans-serif;
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.7em;
+  font-weight: 400;
+  background: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+}
+
+.bordered-layout .page-wrapper {
+  padding: 0px 50px 0px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffb32f;
+}
+
+button {
+  cursor: pointer;
+  text-decoration: none;
+  outline: none !important;
+}
+
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none;
+  outline: none !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  position: relative;
+  font-weight: normal;
+  margin: 0px;
+  background: none;
+  line-height: 1.6em;
+  font-family: "Saira", sans-serif;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 84px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+input,
+button,
+select,
+textarea {
+}
+
+textarea {
+  overflow: hidden;
+}
+
+p {
+  position: relative;
+  line-height: 1.8em;
+}
+
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.medium-container {
+  max-width: 850px;
+}
+
+.page-wrapper {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  min-width: 300px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.theme-btn {
+  display: inline-block;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.centered {
+  text-align: center;
+}
