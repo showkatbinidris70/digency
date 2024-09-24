@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Digency HTML Template | Homepage</title>
+
+
+    <!-- Stylesheets -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;400;500;600;700&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Color Switcher Mockup -->
+    <link href="css/color-switcher-design.css" rel="stylesheet">
+
+    <!-- Color Themes -->
+    <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+
+    <!-- Responsive -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+
+    <!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+    <style>
+        /* header start */
+        .header .nav {
+            width: 100%;
+            position: fixed;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+            z-index: 9999;
+        }
+
+        .header .affix {
+            padding: 0;
+            background-color: #fff;
+        }
+
+        .header .affix .navbar-light .navbar-nav .nav-link {
+            color: black;
+        }
+
+        .header .affix .navbar-light .navbar-brand {
+            color: black;
+        }
+
+        .header .navbar-light .navbar-nav .nav-link {
+            color: #fff;
+        }
+
+        .header .navbar-brand {
+            color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+        <header class="header">
+            <div class="nav">
+                <div class="container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <div class="container-fluid px-0">
+                                <a class="navbar-brand" href="/">
+                                    <h3 class="fs-3">Nano</h3>
+                                </a>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarNav">
+                                    <ul class="navbar-nav ms-md-auto gap-2">
+                                        <li class="nav-item rounded">
+                                            <a class="nav-link active" aria-current="page" href="about.html"><i
+                                                    class="bi bi-house-fill me-2"></i>About</a>
+                                        </li>
+                                        <li class="nav-item rounded">
+                                            <a class="nav-link" href="service.html"><i
+                                                    class="bi bi-people-fill me-2"></i>Services</a>
+                                        </li>
+                                        <li class="nav-item rounded">
+                                            <a class="nav-link" href="projects.html"><i
+                                                    class="bi bi-people-fill me-2"></i>Projects</a>
+                                        </li>
+                                        <li class="nav-item rounded">
+                                            <a class="nav-link" href="contact-us.html"><i
+                                                    class="bi bi-people-fill me-2"></i>Contact</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="hero-section">
+            <div class="container">
+                <div class="row">
+                    <img src="./images/portfolio-img-9.jpg" alt="" srcset="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+
+
+
+    <script src="/js/bootstrap.min.js"></script>
+
+    <!-- custom js -->
+    <script>
+        // nav scroll start
+        $(window).scroll(function () {
+            if ($(document).scrollTop() > 50) {
+                $(".nav").addClass("affix");
+                console.log("OK");
+            } else {
+                $(".nav").removeClass("affix");
+            }
+        });
+        // nav scroll end
+    </script>
+
+    <!-- <script src="js/jquery.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/appear.js"></script>
+    <script src="js/nav-tool.js"></script>
+    <script src="js/mixitup.js"></script>
+    <script src="js/owl.js"></script>
+    <script src="js/knob.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/isotope.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/color-settings.js"></script> -->
+
+</body>
+
+</html>

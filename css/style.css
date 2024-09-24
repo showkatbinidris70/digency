@@ -130,7 +130,7 @@ h6 {
   font-weight: normal;
   margin: 0px;
   background: none;
-  line-height: 1.6em;
+  /* line-height: 1.6em; */
   font-family: "Saira", sans-serif;
 }
 
@@ -216,4 +216,10 @@ img {
 
 .centered {
   text-align: center;
+}
+
+/* ---------- */
+.demo{
+    white-space: ;
+    text-overflow: clip;
 }
