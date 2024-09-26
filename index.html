@@ -7,15 +7,21 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
+    <!-- font family -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Niramit:wght@200;400;500;600;700&family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Color Switcher Mockup -->
-    <link href="css/color-switcher-design.css" rel="stylesheet">
+    <!-- <link href="css/color-switcher-design.css" rel="stylesheet"> -->
 
     <!-- Color Themes -->
-    <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet">
+    <!-- <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet"> -->
 
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
@@ -24,60 +30,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-    <!-- font family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-
     <title>Digital Agency</title>
     <style>
-        /* header start */
-        .header .nav {
-            width: 100%;
-            position: fixed;
-            padding-top: 10px;
-            padding-bottom: 20px;
-            -webkit-transition: all 0.4s ease;
-            transition: all 0.4s ease;
-            z-index: 9999;
-        }
-
-        .header .affix {
-            padding: 0;
-            background-color: #fff;
-        }
-
-        .header .affix .navbar-light .navbar-nav .nav-link {
-            color: black;
-        }
-
-        .header .affix .navbar-light .navbar-brand {
-            color: black;
-        }
-
-        .header .navbar-light .navbar-nav .nav-link {
-            color: #fff;
-        }
-
-        .header .navbar-brand {
-            color: #fff;
-        }
-
         /* ---------------------------- */
-        .hero-section {
+        /* .hero-section {
             background-image: url(./images/hero-bg-1.jpg);
             width: 100%;
             height: 100vh;
@@ -91,26 +50,35 @@
         }
 
         .hero-section .cta-btn {
-            /* background-image: linear-gradient(90deg, #5f39ff 0%, #20d9a1 100%);
-            background-clip: text;
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent; */
 
             color: #A1C4FD;
             color: #CCCCCC;
             color: #00FFFF;
             color: #FFFF00;
             color: #FFA500;
-            color: #A1C4FD;
+            color: #fdb511;
         }
 
-        .floating-img {
+        .cta-btn {
+            background-image: -webkit-gradient(linear, left top, right top, from(#20d9a1), color-stop(51%, #5f39ff), to(#20d9a1));
+        }
+
+        .floating-img-fast {
             box-sizing: border-box;
             border: 5px white solid;
             overflow: hidden;
             box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
             transform: translatey(0px);
             animation: float 2s ease-in-out infinite;
+        }
+
+        .floating-img-delay {
+            box-sizing: border-box;
+            border: 5px white solid;
+            overflow: hidden;
+            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
+            transform: translatey(0px);
+            animation: float 4s ease-in-out infinite;
         }
 
         @keyframes float {
@@ -128,12 +96,13 @@
                 box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
                 transform: translatey(0px);
             }
-        }
+        } */
     </style>
 </head>
 
 <body>
 
+    <!-- header section start -->
 
     <header class="header">
         <div class="nav">
@@ -142,13 +111,15 @@
                     <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid px-0">
                             <a class="navbar-brand" href="/">
-                                <h3 class="fs-3 text-white">Digency</h3>
+                                <h3>Digency</h3>
                             </a>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                                 aria-label="Toggle navigation">
-                                <span class="navbar-toggler-icon"></span>
+                                <!-- <span class="navbar-toggler-icon"></span> -->
+                                <span><i class="fa-solid fa-bars fs-1"></i></span>
                             </button>
+
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ms-md-auto gap-2">
                                     <li class="nav-item rounded">
@@ -179,49 +150,56 @@
             </div>
         </div>
     </header>
+    <!-- header section end -->
 
+    <!-- hero section start -->
     <section class="hero-section d-flex align-items-center justify-content-center">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="content-box pt-5">
-                        <div class="sub-title d-flex align-items-center cta-btn gap-2 pt-5" style="color: #ff3838;">
+                    <div class="content-box">
+                        <div class="sub-title d-flex align-items-center">
                             <i class="fa-solid fa-forward"></i>
-                            <p class="m-0 cta-btn">Welcome to our agency</p>
+                            <p class="m-0 p-0 px-2">Welcome
+                                to our agency
+                            </p>
                             <i class="fa-solid fa-backward"></i>
                         </div>
-                        <h1 style="margin-top: 50px;">We are digital creative agency</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolores quasi perspiciatis,
+                        <h1 class="hero-title">We are digital creative agency</h1>
+                        <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                            dolores quasi
+                            perspiciatis,
                             nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
                             pariatur quam perferendis praesentium earum.</p>
-                        <div class="d-flex align-items-center justify-content-center gap-3">
-                            <a class="btn btn-warning cta-btn">Contact Now</a>
-                            <button class="p-3" style="border-radius: 50%; height: 70px; width: 70px;"><i
-                                    class="fa-solid fa-play fs-1 ps-1"></i></button>
+                        <div class="d-flex align-items-center text-white justify-content-start gap-5 mt-5">
+                            <a class="btn cta-btn px-4 border-1 border-white">Contact
+                                Now</a>
+                            <button class="play-btn d-flex justify-content-center align-items-center"><i
+                                    class="fa-solid fa-play fs-2"></i> </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="" style="padding-top: 22%;">
-                        <div
-                            class="content-box d-flex align-items-center justify-content-center gap-2 position-relative">
-                            <div> <img src="./images/h1-hero-left.jpg" alt="" srcset="" class="img-fluid floating-img"
-                                    style="height: 500px; border-radius: 550px 500px 500px 500px;"></div>
-                            <div> <img src="./images/h1-hero-right.jpg" alt="" srcset=""
-                                    class="img-fluid floating-img position-absolute top-0 "
-                                    style="height: 600px; border-radius: 550px; margin-left: -80px;"></div>
+                    <div class="d-none d-lg-block">
+                        <div class="d-flex align-items-center justify-content-end h-100 position-relative">
+                            <div class="position-absolute floating-img-lg"><img src="./images/h1-hero-left.jpg" alt=""
+                                    srcset="" class="img-fluid floating-img-delay">
+                            </div>
+                            <div class="floating-img-sm"><img src="./images/hero-img-left.jpg" alt="" srcset=""
+                                    class="img-fluid floating-img-fast"></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- hero section end -->
 
     <section class="about-section" style="margin: 120px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5">
-                    <div class="content-box position-relative">
+                    <div class="position-relative">
                         <div class="w-75"><img src="./images/portfolio-img-9.jpg" alt="" srcset="" class="img-fluid"
                                 style="height: 300px;"></div>
                         <div class="position-absolute top-0 w-75" style="margin-top: 150px;"> <img
@@ -230,7 +208,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
-                    <div class="content-box pt-3">
+                    <div class="pt-3">
                         <div class="sub-title d-flex text-secondary align-items-center gap-2">
                             <i class="fa-solid fa-forward"></i>
                             <p class="m-0">Welcome to our agency</p>
@@ -262,25 +240,25 @@
             </div>
             <div class="row my-4">
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box p-5 rounded" style="background-color: #e1e1e1;">
+                    <div class="p-5 rounded" style="background-color: #e1e1e1;">
                         <h2 class="text-center">500+</h2>
                         <p class="fs-4 text-center">Project</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box p-5 rounded" style="background-color: #e1e1e1;">
+                    <div class="p-5 rounded" style="background-color: #e1e1e1;">
                         <h2 class="text-center">200+</h2>
                         <p class="fs-4 text-center">Team Members</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box p-5 rounded" style="background-color: #e1e1e1;">
+                    <div class="p-5 rounded" style="background-color: #e1e1e1;">
                         <h2 class="text-center">400+</h2>
                         <p class="fs-4 text-center">Awards</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box p-5 rounded" style="background-color: #e1e1e1;">
+                    <div class="p-5 rounded" style="background-color: #e1e1e1;">
                         <h2 class="text-center">20+</h2>
                         <p class="fs-4 text-center">Years Experience</p>
                     </div>
@@ -308,7 +286,7 @@
             </div>
             <div class="row mt-4">
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
+                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
                         <i class="fa-brands fa-web-awesome fs-1"></i>
                         <h2 class="text-center">Logo Design</h2>
                         <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -319,7 +297,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
+                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
                         <i class="fa-brands fa-web-awesome fs-1"></i>
                         <h2 class="text-center">web Design</h2>
                         <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -330,7 +308,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
+                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
                         <i class="fa-brands fa-web-awesome fs-1"></i>
                         <h2 class="text-center">Mob. Design</h2>
                         <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -341,7 +319,7 @@
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
+                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
                         <i class="fa-brands fa-web-awesome fs-1"></i>
                         <h2 class="text-center">SEO Design</h2>
                         <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
@@ -561,7 +539,7 @@
                     style="border-radius: 0 100% 100% 0; height: 800px;">
             </div>
             <div class="faq-right" style="width: 60%; padding-right: 15%;">
-                <div class="content-box mt-5">
+                <div class="mt-5">
                     <h2 class="py-3">You Are Confused ?</h2>
                     <h2 class="py-3">Question & Answeres</h2>
                     <div class="d-flex justify-content-start">
@@ -651,15 +629,14 @@
 
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
-                    <div class="content-box w-100 position-relative"
-                        style="height: 350px; background-color: aliceblue;">
+                    <div class="w-100 position-relative" style="height: 350px; background-color: aliceblue;">
                         <div class="bottom-box position-absolute "
                             style="height: 200px; width: 350px; margin-top: 250px; background-color: rgba(250, 235, 215, 0.459); right: 50px;">
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-                    <div class="content-box w-100" style="height: 350px; background-color: aliceblue;">
+                    <div class="w-100" style="height: 350px; background-color: aliceblue;">
 
                     </div>
                 </div>
@@ -726,7 +703,7 @@
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="content-box d-flex justify-content-end">
+                        <div class="d-flex justify-content-end">
                             <p class="m-0"> Privacy</p>
                             <p class="m-0"> Terms & Conditions</p>
                         </div>
@@ -737,25 +714,8 @@
     </footer>
 
     <!-- bootstrap 5 main.js-->
-    <script src="/js/bootstrap.min.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-
-    <!-- custom js -->
-    <script>
-        // nav scroll start
-        $(window).scroll(function () {
-            if ($(document).scrollTop() > 50) {
-                $(".nav").addClass("affix");
-                console.log("OK");
-            } else {
-                $(".nav").removeClass("affix");
-            }
-        });
-        // nav scroll end
-    </script>
+    <script src="./js/bootstrap.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 
 </html>

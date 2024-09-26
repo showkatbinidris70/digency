@@ -1,0 +1,14 @@
+@media only screen and (max-width: 991px) {
+  /* header section start */
+  .header .nav {
+    background-color: var(--bg_white);
+  }
+  .header .navbar .navbar-brand {
+    color: var(--text_dark);
+  }
+  .header .navbar .navbar-nav .nav-link {
+    color: var(--text_dark);
+    font-size: 18px;
+  }
+  /* header section end */
+}
