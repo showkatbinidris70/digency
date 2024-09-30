@@ -6,60 +6,156 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+
+
     <title>Document</title>
+    <style>
+        /* .grid {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+
+        .block-33 {
+            width: 33%;
+            float: left;
+            margin-top: 40px;
+        }
+
+        .gutter {
+            margin-left: 20px;
+            margin-right: 20px;
+            overflow: hidden;
+        }
+
+        .clear {
+            clear: both;
+            display: block;
+        }
+
+        .parallax-img {
+            width: 100%;
+        } */
+        .grid {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding-bottom: 40px;
+        }
+
+        .block-33 {
+            width: 33%;
+            float: left;
+            margin-top: 40px;
+        }
+
+        .gutter {
+            margin-left: 20px;
+            margin-right: 20px;
+            overflow: hidden;
+        }
+
+        .clear {
+            clear: both;
+            display: block;
+        }
+
+        .parallax-img {
+            width: 100%;
+            transition: transform 0.2s ease-out;
+        }
+    </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="#">Navbar</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Link</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Action</a></li>
-                                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                                    <li>
-                                        <hr class="dropdown-divider">
-                                    </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                            </li>
-                        </ul>
-                        <form class="d-flex">
-                            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+    <div class="grid">
+        <div class="block-33">
+            <div class="gutter">
+                <img src="https://images.unsplash.com/photo-1513907404652-d138942b8859?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=e194c3d5ea36af23cd7b7389ab9c3f90"
+                    alt="" class="parallax-img" data-velocity="-20">
+            </div>
         </div>
+        <div class="block-33">
+            <div class="gutter">
+                <img src="https://images.unsplash.com/photo-1518579496900-5da8e6f6fc79?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=77e36ecf0d7eabc4f6253906d4b39abb"
+                    alt="" class="parallax-img" data-velocity="-10">
+            </div>
+        </div>
+
+        <div class="clear"></div>
+    </div>
+
+    <div>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae iste deleniti pariatur quia. Ipsum, a animi?
+            Laboriosam distinctio libero ipsum perferendis harum fuga quam! Expedita, dolore? Enim ullam autem ducimus.
+        </h1>
     </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        var $images = $('.parallax-img');
+        var window_h = $(window).height();
+
+        $(window).scroll(function () {
+            var windowScrollTop = $(window).scrollTop();
+
+            if (windowScrollTop == 0) {
+                TweenLite.to($images, 1.2, {
+                    yPercent: 0,
+                    ease: Power1.easeOut,
+                    overwrite: 0
+                });
+            }
+            else {
+                $images.each(function () {
+                    var elementOffsetTop = $(this).offset().top,
+                        element_h = $(this).height(),
+                        velocity = $(this).data('velocity');
+
+                    if (windowScrollTop + window_h > elementOffsetTop && windowScrollTop < elementOffsetTop + element_h) {
+                        //if in view:
+
+                        TweenLite.to($(this), 1.2, {
+                            yPercent: (windowScrollTop + window_h - elementOffsetTop) / window_h * velocity,
+                            ease: Power1.easeOut,
+                            overwrite: 0
+                        });
+                    }
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>

@@ -1,3 +1,79 @@
+@media only screen and (max-width: 1400px) {
+  /* hero section start */
+  .hero-section .hero-title {
+    font-size: 72px;
+  }
+  .hero-section .floating-img-fast {
+    height: 450px;
+    width: 300px;
+  }
+  .hero-section .floating-img-delay {
+    height: 500px;
+    margin-left: 220px;
+  }
+  /* hero section end */
+  /* about section start */
+  .about-section .about-img-fast {
+    height: 300px;
+    width: 300px;
+  }
+  .about-section .about-img-delay {
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  .about-section .about-title {
+    font-size: 60px;
+  }
+  /* about section end */
+  /* faq start */
+  #faq .faq-right {
+    padding-right: 5%;
+  }
+  #faq .faq-right h2 {
+    font-size: 60px;
+  }
+  /* faq end */
+}
+@media only screen and (max-width: 1199px) {
+  /* hero section start */
+  .hero-section .sub-title {
+    padding-top: 60px;
+  }
+  .hero-section .hero-title {
+    font-size: 60px;
+  }
+
+  .hero-section .floating-img-delay {
+    margin-top: 50px;
+    margin-left: 0px;
+  }
+  /* hero section end */
+  /* about section start */
+  .about-section .about-img-fast {
+    height: 300px;
+    width: 300px;
+  }
+  .about-section .about-img-delay {
+    height: 300px;
+    width: 300px;
+    margin-top: 150px;
+    margin-left: 150px;
+  }
+  .about-section .about-title {
+    font-size: 60px;
+  }
+  /* about section end */
+  /* faq start */
+  #faq .faq-right {
+    padding-right: 5%;
+  }
+  #faq .faq-right h2 {
+    font-size: 52px;
+  }
+  /* faq end */
+}
 @media only screen and (max-width: 991px) {
   /* header section start */
   .header .nav {
@@ -11,4 +87,151 @@
     font-size: 18px;
   }
   /* header section end */
+
+  /* hero section start */
+  .hero-section .sub-title {
+    padding-top: 60px;
+  }
+  .hero-section .hero-title {
+    font-size: 72px;
+  }
+  /* hero section end */
+  /* about section start */
+  .about-section .sub-title {
+    margin-top: 200px;
+  }
+  .about-section .about-title {
+    font-size: 72px;
+  }
+  /* about section end */
+
+  /* faq start */
+  #faq .faq-right {
+    padding-right: 5%;
+  }
+  #faq .faq-right h2 {
+    font-size: 42px;
+  }
+  /* faq end */
+}
+
+@media only screen and (max-width: 767px) {
+  /* hero section start */
+  .hero-section .hero-title {
+    font-size: 52px;
+  }
+  /* hero section end */
+  /* about section start */
+  .about-section .sub-title {
+    margin-top: 200px;
+  }
+  .about-section .about-title {
+    font-size: 52px;
+  }
+  /* about section end */
+  /* our clients start */
+  #our_clients h2 {
+    font-size: 52px;
+  }
+  /* our clients end */
+  /* faq start */
+
+  #faq .faq-left {
+    width: 100%;
+    padding-right: 10px;
+  }
+  #faq .faq-left img {
+    border-radius: 0 100% 100% 0;
+    height: 100vh;
+  }
+  #faq .faq-right {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #faq .faq-right h2 {
+    font-size: 52px;
+  }
+  /* faq end */
+}
+@media only screen and (max-width: 575px) {
+  /* hero section start */
+  .hero-section .hero-title {
+    font-size: 48px;
+  }
+  /* hero section end */
+  /* about section start */
+  .about-section .sub-title {
+    margin-top: 48px;
+  }
+  .about-section .about-title {
+    font-size: 48px;
+  }
+  /* about section end */
+  /* our clients start */
+  #our_clients h2 {
+    font-size: 48px;
+  }
+  /* our clients end */
+
+  /* faq start */
+
+  #faq .faq-left {
+    width: 100%;
+    padding-right: 10px;
+  }
+  #faq .faq-left img {
+    border-radius: 0 100% 100% 0;
+    height: 80vh;
+  }
+  #faq .faq-right {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #faq .faq-right h2 {
+    font-size: 36px;
+  }
+  /* faq end */
+}
+@media only screen and (max-width: 375px) {
+  /* hero section start */
+  .hero-section .hero-title {
+    font-size: 48px;
+  }
+  /* hero section end */
+
+  /* about section start */
+  .about-section .sub-title {
+    margin-top: 48px;
+  }
+  .about-section .about-title {
+    font-size: 48px;
+  }
+  /* about section end */
+
+  /* our clients start */
+  #our_clients h2 {
+    font-size: 48px;
+  }
+  /* our clients end */
+
+  /* faq start */
+  #faq .faq-left {
+    width: 100%;
+    padding-right: 10px;
+  }
+  #faq .faq-left img {
+    border-radius: 0 100% 100% 0;
+    height: 80vh;
+  }
+  #faq .faq-right {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  #faq .faq-right h2 {
+    font-size: 36px;
+  }
+  /* faq end */
 }

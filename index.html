@@ -30,73 +30,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+
+    <!-- CounterUp Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup2@1.0.7/dist/jquery.counterup.min.js"></script>
+
 
     <title>Digital Agency</title>
     <style>
-        /* ---------------------------- */
-        /* .hero-section {
-            background-image: url(./images/hero-bg-1.jpg);
-            width: 100%;
-            height: 100vh;
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
 
-
-            background-color: #000000;
-            background-image: linear-gradient(to bottom right, #0f0f0f, #222222, #313131);
-        }
-
-        .hero-section .cta-btn {
-
-            color: #A1C4FD;
-            color: #CCCCCC;
-            color: #00FFFF;
-            color: #FFFF00;
-            color: #FFA500;
-            color: #fdb511;
-        }
-
-        .cta-btn {
-            background-image: -webkit-gradient(linear, left top, right top, from(#20d9a1), color-stop(51%, #5f39ff), to(#20d9a1));
-        }
-
-        .floating-img-fast {
-            box-sizing: border-box;
-            border: 5px white solid;
-            overflow: hidden;
-            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-            transform: translatey(0px);
-            animation: float 2s ease-in-out infinite;
-        }
-
-        .floating-img-delay {
-            box-sizing: border-box;
-            border: 5px white solid;
-            overflow: hidden;
-            box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-            transform: translatey(0px);
-            animation: float 4s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0% {
-                box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-                transform: translatey(0px);
-            }
-
-            50% {
-                box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.2);
-                transform: translatey(-20px);
-            }
-
-            100% {
-                box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.6);
-                transform: translatey(0px);
-            }
-        } */
     </style>
 </head>
 
@@ -123,15 +66,15 @@
                             <div class="collapse navbar-collapse" id="navbarNav">
                                 <ul class="navbar-nav ms-md-auto gap-2">
                                     <li class="nav-item rounded">
-                                        <a class="nav-link active" aria-current="page" href="home.html"><i
+                                        <a class="nav-link active" aria-current="page" href="#hero"><i
                                                 class="bi bi-house-fill me-2"></i>Home</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                        <a class="nav-link" href="about.html"><i
+                                        <a class="nav-link" href="#about"><i
                                                 class="bi bi-people-fill me-2"></i>About</a>
                                     </li>
                                     <li class="nav-item rounded">
-                                        <a class="nav-link" href="service.html"><i
+                                        <a class="nav-link" href="#services"><i
                                                 class="bi bi-people-fill me-2"></i>Service</a>
                                     </li>
                                     <li class="nav-item rounded">
@@ -153,40 +96,38 @@
     <!-- header section end -->
 
     <!-- hero section start -->
-    <section class="hero-section d-flex align-items-center justify-content-center">
+    <section class="hero-section d-flex align-items-center justify-content-center" id="hero">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="content-box">
-                        <div class="sub-title d-flex align-items-center">
-                            <i class="fa-solid fa-forward"></i>
-                            <p class="m-0 p-0 px-2">Welcome
-                                to our agency
-                            </p>
-                            <i class="fa-solid fa-backward"></i>
-                        </div>
-                        <h1 class="hero-title">We are digital creative agency</h1>
-                        <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                            dolores quasi
-                            perspiciatis,
-                            nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
-                            pariatur quam perferendis praesentium earum.</p>
-                        <div class="d-flex align-items-center text-white justify-content-start gap-5 mt-5">
-                            <a class="btn cta-btn px-4 border-1 border-white">Contact
-                                Now</a>
-                            <button class="play-btn d-flex justify-content-center align-items-center"><i
-                                    class="fa-solid fa-play fs-2"></i> </button>
-                        </div>
+                    <div class="sub-title d-flex align-items-center">
+                        <i class="fa-solid fa-forward"></i>
+                        <p class="m-0 p-0 px-2">Welcome
+                            to our agency
+                        </p>
+                        <i class="fa-solid fa-backward"></i>
+                    </div>
+                    <h1 class="hero-title">We are digital creative agency</h1>
+                    <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                        dolores quasi
+                        perspiciatis,
+                        nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
+                        pariatur quam perferendis praesentium earum.</p>
+                    <div class="d-flex align-items-center text-white justify-content-start gap-5 mt-5">
+                        <a class="btn cta-btn px-4 border-1 border-white">Contact
+                            Now</a>
+                        <button class="play-btn d-flex justify-content-center align-items-center"><i
+                                class="fa-solid fa-play fs-2"></i> </button>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="d-none d-lg-block">
-                        <div class="d-flex align-items-center justify-content-end h-100 position-relative">
-                            <div class="position-absolute floating-img-lg"><img src="./images/h1-hero-left.jpg" alt=""
-                                    srcset="" class="img-fluid floating-img-delay">
+                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-none d-lg-block">
+                    <div class="d-flex align-items-center justify-content-center h-100">
+                        <div class="position-relative">
+                            <div class=""> <img src="./images/h1-hero-left.jpg" alt="" srcset=""
+                                    class="img-fluid floating-img-delay">
                             </div>
-                            <div class="floating-img-sm"><img src="./images/hero-img-left.jpg" alt="" srcset=""
-                                    class="img-fluid floating-img-fast"></div>
+                            <div class="position-absolute top-0 d-none d-xl-block"><img src="./images/hero-img-left.jpg"
+                                    alt="" srcset="" class="img-fluid floating-img-fast"></div>
                         </div>
                     </div>
                 </div>
@@ -195,42 +136,46 @@
     </section>
     <!-- hero section end -->
 
-    <section class="about-section" style="margin: 120px 0;">
+    <!-- about section start -->
+    <section class="about-section" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5">
                     <div class="position-relative">
-                        <div class="w-75"><img src="./images/portfolio-img-9.jpg" alt="" srcset="" class="img-fluid"
-                                style="height: 300px;"></div>
-                        <div class="position-absolute top-0 w-75" style="margin-top: 150px;"> <img
-                                src="./images/portfolio-img-9.jpg" alt="" srcset="" class="img-fluid"
-                                style="height: 300px; margin-left: 150px;"></div>
+                        <div class="text-center text-sm-start"><img src="./images/portfolio-img-9.jpg" alt="" srcset=""
+                                class="img-fluid about-img-fast rounded"></div>
+                        <div class="position-absolute top-0 d-none d-sm-block"> <img src="./images/portfolio-img-9.jpg"
+                                alt="" srcset="" class="img-fluid about-img-delay rounded"></div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
-                    <div class="pt-3">
-                        <div class="sub-title d-flex text-secondary align-items-center gap-2">
-                            <i class="fa-solid fa-forward"></i>
-                            <p class="m-0">Welcome to our agency</p>
-                            <i class="fa-solid fa-backward"></i>
-                        </div>
-                        <h1>We Provide Best Design Solutions</h1>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis dolores quasi perspiciatis,
-                            nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
-                            pariatur quam perferendis praesentium earum.</p>
-                        <div class="d-flex align-items-center justify-content-start gap-3">
-                            <a class="btn btn-warning">Contact Now</a>
-                            <div class="align-items-center">
-                                <p class="m-0">Call Now</p>
-                                <p class="m-0">+8956524</p>
-                            </div>
+                    <div class="sub-title d-flex align-items-center">
+                        <i class="fa-solid fa-forward"></i>
+                        <p class="m-0 p-0 px-2">Welcome
+                            to our agency
+                        </p>
+                        <i class="fa-solid fa-backward"></i>
+                    </div>
+                    <h2 class="about-title">We Provide Best Design Solutions</h2>
+                    <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+                        dolores quasi perspiciatis,
+                        nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
+                        pariatur quam perferendis praesentium earum.</p>
+                    <div class="d-flex align-items-center justify-content-start gap-3">
+                        <a class="btn cta-btn px-4 border-1 border-white">Contact
+                            Now</a>
+                        <div class="align-items-center">
+                            <p class="m-0 fs-5">Call Now</p>
+                            <p class="m-0 fs-5">+8956524</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- about section end -->
 
+    <!-- counter up start -->
     <section class="counter-up" style="margin: 120px 0; padding: 120px 0; background-color: #faf8f8;">
         <div class="container">
             <div class="sub-title d-flex text-dark align-items-center gap-2">
@@ -241,33 +186,34 @@
             <div class="row my-4">
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
                     <div class="p-5 rounded" style="background-color: #e1e1e1;">
-                        <h2 class="text-center">500+</h2>
+                        <h2><span class="counter">2,523</span></h2>
                         <p class="fs-4 text-center">Project</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
                     <div class="p-5 rounded" style="background-color: #e1e1e1;">
-                        <h2 class="text-center">200+</h2>
+                        <h2 class="text-center counter">2,52</h2>
                         <p class="fs-4 text-center">Team Members</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
                     <div class="p-5 rounded" style="background-color: #e1e1e1;">
-                        <h2 class="text-center">400+</h2>
+                        <h2 class="text-center counter">2,2</h2>
                         <p class="fs-4 text-center">Awards</p>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
                     <div class="p-5 rounded" style="background-color: #e1e1e1;">
-                        <h2 class="text-center">20+</h2>
+                        <h2 class="text-center counter">2,5</h2>
                         <p class="fs-4 text-center">Years Experience</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- counter up end -->
 
-    <section class="services">
+    <section class="services" id="services">
         <div class="container">
             <div class="sub-title d-flex text-dark align-items-center justify-content-center gap-2">
                 <i class="fa-solid fa-forward"></i>
@@ -333,54 +279,78 @@
         </div>
     </section>
 
-
-    <style>
-        /* body {
-            align-items: center;
-            justify-content: center;
-        } */
-
-        @keyframes scroll {
-            0% {
-                transform: translateX(0);
-            }
-
-            100% {
-                transform: translateX(calc(-250px * 7));
-            }
-        }
-
-        .slider {
-            height: 100px;
-            margin: auto;
-            overflow: hidden;
-            position: relative;
-            width: auto;
-
-        }
-
-        .slider .slide-track {
-            animation: scroll 40s linear infinite;
-            display: flex;
-            width: calc(250px * 14);
-        }
-
-        .slider .slide {
-            height: 100px;
-            width: 250px;
-        }
-    </style>
-
-    <section class="our-clients"
-        style="margin: 120px 0; padding: 120px 0; background-color: rgba(240, 248, 255, 0.689);">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-5 col-xxl-5">
-                    <div class="context-box">
-                        <h1>Our Clients</h1>
+    <!-- our clients start -->
+    <section id="our_clients">
+        <div class="d-block d-md-flex justify-content-between align-items-center gap-3">
+            <div class="title">
+                <h2 class="text-nowrap px-3">Our Clients</h2>
+            </div>
+            <div class="logos" style="overflow: hidden;">
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="slide">
+                            <img src="./images/2.png" class="img-fluid" alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img-fluid"
+                                alt="" />
+                        </div>
+                        <div class="slide">
+                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img-fluid"
+                                alt="" />
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-8 col-xl-7 col-xxl-7">
+            </div>
+        </div>
+        <div class="container d-none">
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-5 col-xxl-4">
+                    <div class="context-box">
+                        <h2>Our Clients</h2>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-8 col-xl-7 col-xxl-8">
                     <div class="slider">
                         <div class="slide-track">
                             <div class="slide">
@@ -441,109 +411,28 @@
             </div>
         </div>
     </section>
+    <!-- our clients end -->
 
-    <section class="faq" style="margin: 120px 0;">
+    <!-- faq start -->
+    <section id="faq">
         <div class="container">
-            <div class="sub-title d-flex text-dark align-items-center justify-content-center gap-2 pb-5">
+            <div class="sub-title d-flex align-items-center justify-content-center">
                 <i class="fa-solid fa-forward"></i>
-                <p class="m-0">Frequent Asked Question</p>
+                <p class="m-0 p-0 px-2">Frequent Asked Question </p>
                 <i class="fa-solid fa-backward"></i>
             </div>
-
-            <div class="row d-none">
-                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
-                    <img src="./images/h1-hero-right.jpg" class="img-fluid" alt="" srcset="">
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="content-box">
-                        <h2 class="py-3">You Are Confused ?</h2>
-                        <h2 class="py-3">Question & Answeres</h2>
-                        <div class="d-flex justify-content-start">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio excepturi sunt
-                                recusandae
-                                explicabo
-                                dolorum porro quos consequatur animi voluptate culpa, error cumque quisquam
-                                reiciendis. Esse
-                                voluptates
-                                placeat eius earum.</p>
-                        </div>
-                    </div>
-                    <div class="accordion" id="accordionPanelsStayOpenExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                    aria-controls="panelsStayOpen-collapseOne">
-                                    Accordion Item #1
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                                aria-labelledby="panelsStayOpen-headingOne">
-                                <div class="accordion-body">
-                                    <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseTwo">
-                                    Accordion Item #2
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingTwo">
-                                <div class="accordion-body">
-                                    <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="accordion-item">
-                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                    aria-controls="panelsStayOpen-collapseThree">
-                                    Accordion Item #3
-                                </button>
-                            </h2>
-                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                                aria-labelledby="panelsStayOpen-headingThree">
-                                <div class="accordion-body">
-                                    <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                    until the collapse plugin adds the appropriate classes that we use to style each
-                                    element. These classes control the overall appearance, as well as the showing and
-                                    hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                    our default variables. It's also worth noting that just about any HTML can go within
-                                    the <code>.accordion-body</code>, though the transition does limit overflow.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
         </div>
-        <div class="d-flex gap-4">
-            <div class="faq-left" style="width: 40%;">
-                <img src="./images/h1-hero-right.jpg" class="img-fluid w-100" alt="" srcset=""
-                    style="border-radius: 0 100% 100% 0; height: 800px;">
+        <div class="d-block d-md-flex gap-4">
+            <div class="faq-left mt-5 mt-lg-0">
+                <img src="./images/h1-hero-right.jpg" class="img-fluid w-100" alt="" srcset="">
             </div>
-            <div class="faq-right" style="width: 60%; padding-right: 15%;">
-                <div class="mt-5">
-                    <h2 class="py-3">You Are Confused ?</h2>
-                    <h2 class="py-3">Question & Answeres</h2>
+            <div class="faq-right mt-5 mt-lg-0">
+                <div class="mt-2">
+                    <h2 class="">You Are Confused ?</h2>
+                    <h2 class="">Question & Answeres</h2>
                     <div class="d-flex justify-content-start">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio excepturi sunt
+                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio excepturi
+                            sunt
                             recusandae
                             explicabo
                             dolorum porro quos consequatur animi voluptate culpa, error cumque quisquam
@@ -552,7 +441,7 @@
                             placeat eius earum.</p>
                     </div>
                 </div>
-                <div class="accordion mt-5" id="accordionPanelsStayOpenExample">
+                <div class="accordion mt-2" id="accordionPanelsStayOpenExample">
                     <div class="accordion-item">
                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse"
@@ -617,6 +506,7 @@
             </div>
         </div>
     </section>
+    <!-- faq end -->
 
     <section class="projects" style="margin: 120px 0;">
         <div class="container">
@@ -644,14 +534,15 @@
         </div>
     </section>
 
-    <footer class="text-white"
-        style="background-color: rgb(40, 37, 37); margin-top: 120px; padding-top: 120px; padding-bottom: 20px;">
+    <!-- footer start -->
+    <footer id="footer">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box">
+                    <div class="mb-4 mb-lg-0">
                         <h3>Digency</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sed laboriosam laborum
+                        <p class="footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sed
+                            laboriosam laborum
                             distinctio dolor id quidem iste fugit, beatae corrupti corporis ab ad aliquid minima eaque
                             deleniti eligendi aut totam.</p>
                         <div class="social-icons d-flex gap-3">
@@ -663,59 +554,85 @@
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box">
+                    <div class="mb-4 mb-lg-0 list-style">
                         <h3>Our Services</h3>
                         <ul>
-                            <li>Digital Marketing</li>
-                            <li>Digital Marketing</li>
-                            <li>Digital Marketing</li>
-                            <li>Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box">
+                    <div class="mb-4 mb-lg-0 list-style">
                         <h3>Recent Projects</h3>
                         <ul>
-                            <li>Digital Marketing</li>
-                            <li>Digital Marketing</li>
-                            <li>Digital Marketing</li>
-                            <li>Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
+                            <li class="mb-3">Digital Marketing</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="content-box">
+                    <div class="mb-4 mb-lg-0 list-style">
                         <h3>Get in Touch</h3>
                         <ul>
-                            <li>phone</li>
-                            <li>email</li>
-                            <li>address</li>
+                            <li class="d-flex align-items-center justify-content-start gap-2 mb-2"><i
+                                    class="fa-solid fa-phone-volume"></i>
+                                <p class="m-0">+00-123-456-789</p>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-start gap-2 mb-2"><i
+                                    class="fa-regular fa-envelope"></i>
+                                <p class="m-0">mail@webency.com</p>
+                            </li>
+                            <li class="d-flex align-items-center justify-content-start gap-2 mb-2"><i
+                                    class="fa-solid fa-location-dot"></i>
+                                <p class="m-0">Marion Street, Columbia</p>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom pt-5">
+            <!-- footer bottom start -->
+            <div class="footer-bottom pt-4">
                 <div class="row">
                     <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                         <div class="content-box">
-                            <p class="m-0"> Copy right @2024</p>
+                            <p class="m-0"> Copy right @<span id="year"></span></p>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="d-flex justify-content-end">
-                            <p class="m-0"> Privacy</p>
-                            <p class="m-0"> Terms & Conditions</p>
+                        <div class="d-flex justify-content-md-end gap-3">
+                            <p class="m-0"> <a href="#">Privacy</a></p>
+                            <p class="m-0"> <a href="#">Terms & Conditions</a></p>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- footer bottom end -->
+
         </div>
     </footer>
+    <!-- footer end -->
 
     <!-- bootstrap 5 main.js-->
     <script src="./js/bootstrap.js"></script>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- CounterUp Plugin version 1.0 -->
+    <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+
+    <!-- Waypoints (CounterUp dependency) -->
+    <script src="https://cdn.jsdelivr.net/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+
     <script src="./js/main.js"></script>
+
+
+
 </body>
 
 </html>
