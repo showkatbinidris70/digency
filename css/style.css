@@ -466,6 +466,10 @@ img {
   background-position: center center;
   background-blend-mode: multiply;
 }
+#counter_up .card {
+  background-color: var(--bg_dark);
+  background-image: linear-gradient(to bottom right, #f39c06, #222222, #313131);
+}
 #counter_up h2 {
   font-size: 80px;
   line-height: 1;
