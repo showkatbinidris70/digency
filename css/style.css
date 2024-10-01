@@ -448,6 +448,34 @@ img {
 }
 /* about section end */
 
+/* counter up start */
+#counter_up {
+  margin: 120px 0;
+  padding: 120px 0;
+  background-color: #faf8f8;
+  background-repeat: no-repeat;
+  background: linear-gradient(
+      90deg,
+      rgb(0, 0, 0) 0%,
+      rgb(159, 151, 146) 0%,
+      rgb(21, 17, 1) 35%,
+      rgb(96, 104, 90) 85%
+    ),
+    url("/images/couner-up-bg-img.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+#counter_up h2 {
+  font-size: 80px;
+  line-height: 1;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: var(--text_primary);
+  color: transparent;
+  margin-bottom: -4px;
+}
+/* counter up end */
+
 /* our clients start */
 #our_clients {
   margin: 120px 0;
