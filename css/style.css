@@ -468,15 +468,27 @@ img {
 }
 #counter_up .card {
   background-color: var(--bg_dark);
-  background-image: linear-gradient(to bottom right, #f39c06, #222222, #313131);
+  background-image: linear-gradient(to bottom right, #f39c06, #161616, #313131);
+
+  background-color: var(--bg_dark);
+  background-image: linear-gradient(
+    to bottom right,
+    #f39c06 5%,
+    #7a4c02 35%,
+    #313131 60%,
+    #161616 100%
+  );
 }
-#counter_up h2 {
+#counter_up .card h2 {
   font-size: 80px;
   line-height: 1;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: var(--text_primary);
   color: transparent;
   margin-bottom: -4px;
+}
+#counter_up .card p {
+  color: #dfdfdf;
 }
 /* counter up end */
 
