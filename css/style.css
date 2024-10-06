@@ -356,7 +356,8 @@ img {
 /* hero section start */
 .hero-section {
   width: 100%;
-  height: auto;
+  height: 100%;
+  padding: 100px 0;
   min-height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
