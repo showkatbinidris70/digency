@@ -1,8 +1,16 @@
 @media only screen and (max-width: 1400px) {
-  /* hero section start */
-  .hero-section .hero-title {
+  h1 {
     font-size: 72px;
   }
+  h2 {
+    font-size: 60px;
+  }
+  h3 {
+    font-size: 48px;
+  }
+
+  /* hero section start */
+
   .hero-section .floating-img-fast {
     height: 450px;
     width: 300px;
@@ -31,18 +39,21 @@
   #faq .faq-right {
     padding-right: 5%;
   }
-  #faq .faq-right h2 {
-    font-size: 60px;
-  }
   /* faq end */
 }
 @media only screen and (max-width: 1199px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 52px;
+  }
+  h3 {
+    font-size: 36px;
+  }
   /* hero section start */
   .hero-section .sub-title {
     padding-top: 60px;
-  }
-  .hero-section .hero-title {
-    font-size: 60px;
   }
 
   .hero-section .floating-img-delay {
@@ -61,20 +72,25 @@
     margin-top: 150px;
     margin-left: 150px;
   }
-  .about-section .about-title {
-    font-size: 60px;
-  }
+
   /* about section end */
   /* faq start */
   #faq .faq-right {
     padding-right: 5%;
   }
-  #faq .faq-right h2 {
-    font-size: 52px;
-  }
+
   /* faq end */
 }
 @media only screen and (max-width: 991px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  h3 {
+    font-size: 36px;
+  }
   /* header section start */
   .header .nav {
     background-color: var(--bg_white);
@@ -88,52 +104,32 @@
   }
   /* header section end */
 
-  /* hero section start */
-  .hero-section .sub-title {
-    padding-top: 60px;
-  }
-  .hero-section .hero-title {
-    font-size: 72px;
-  }
-  /* hero section end */
   /* about section start */
   .about-section .sub-title {
     margin-top: 200px;
   }
-  .about-section .about-title {
-    font-size: 72px;
-  }
+
   /* about section end */
 
   /* faq start */
   #faq .faq-right {
     padding-right: 5%;
   }
-  #faq .faq-right h2 {
-    font-size: 42px;
-  }
+
   /* faq end */
 }
 
 @media only screen and (max-width: 767px) {
-  /* hero section start */
-  .hero-section .hero-title {
+  h1 {
     font-size: 52px;
   }
-  /* hero section end */
-  /* about section start */
-  .about-section .sub-title {
-    margin-top: 200px;
+  h2 {
+    font-size: 42px;
   }
-  .about-section .about-title {
-    font-size: 52px;
+  h3 {
+    font-size: 32px;
   }
-  /* about section end */
-  /* our clients start */
-  #our_clients h2 {
-    font-size: 52px;
-  }
-  /* our clients end */
+
   /* faq start */
 
   #faq .faq-left {
@@ -149,30 +145,21 @@
     padding: 0 10px;
   }
 
-  #faq .faq-right h2 {
-    font-size: 52px;
-  }
   /* faq end */
 }
 @media only screen and (max-width: 575px) {
-  /* hero section start */
-  .hero-section .hero-title {
-    font-size: 48px;
+  h1 {
+    font-size: 50px;
   }
-  /* hero section end */
-  /* about section start */
-  .about-section .sub-title {
-    margin-top: 48px;
+  h2 {
+    font-size: 40px;
   }
-  .about-section .about-title {
-    font-size: 48px;
+  h3 {
+    font-size: 30px;
   }
-  /* about section end */
-  /* our clients start */
-  #our_clients h2 {
-    font-size: 48px;
+  p {
+    font-size: 16px;
   }
-  /* our clients end */
 
   /* faq start */
 
@@ -189,32 +176,18 @@
     padding: 0 10px;
   }
 
-  #faq .faq-right h2 {
-    font-size: 36px;
-  }
   /* faq end */
 }
 @media only screen and (max-width: 375px) {
-  /* hero section start */
-  .hero-section .hero-title {
+  h1 {
     font-size: 48px;
   }
-  /* hero section end */
-
-  /* about section start */
-  .about-section .sub-title {
-    margin-top: 48px;
+  h2 {
+    font-size: 36px;
   }
-  .about-section .about-title {
-    font-size: 48px;
+  h3 {
+    font-size: 28px;
   }
-  /* about section end */
-
-  /* our clients start */
-  #our_clients h2 {
-    font-size: 48px;
-  }
-  /* our clients end */
 
   /* faq start */
   #faq .faq-left {
@@ -230,8 +203,5 @@
     padding: 0 10px;
   }
 
-  #faq .faq-right h2 {
-    font-size: 36px;
-  }
   /* faq end */
 }

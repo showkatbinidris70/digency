@@ -4,15 +4,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <title>Document</title>
 </head>
 
 <body>
+    <div class="" id="day-name"></div>
+    <div class="" id="time"></div>
+    <button onclick="stopClock()">Top Clock</button>
+    <div class="" id="text"></div>
+    <div class="" id="clock"></div>
     <script>
-        const num = ["showkat", 'mohammad', 'ali']
-        const [s, m, a, name= "Showkat Ali"] = num;
-        console.log(name);
+
+        const dayList = ['Sunday', 'Monday', 'Tweasday', 'Webnesday', "Thursday", 'Friday', 'Saturday']
+
+        const clockInterval = setInterval(() => {
+            let date = new Date();
+            let today = dayList[date.getDay()];
+            let hr = date.getHours();
+            let ampm = 'AM';
+            if (hr > 11) {
+                ampm = "PM";
+            }
+            if (hr > 12) {
+                hr -= 12;
+            }
+            let min = date.getMinutes();
+            let sec = date.getSeconds();
+            document.getElementById("day-name").innerText = `Today is : ${today}`;
+            document.getElementById("time").innerText = `Current time is :  ${hr} ${ampm} : ${min} : ${sec}`;
+        }, 1000)
+
+        function stopClock() {
+            clearInterval(clockInterval);
+        }
+
+        let date = new Date();
+        let currentDate = date.toLocaleDateString()
+        console.log(currentDate);
+
+
     </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

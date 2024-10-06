@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Custom Dropdown Example</title>
+    <style>
+        .dropdown-menu.show {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="container mt-5">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" aria-expanded="false">
+                Select an option
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <li><a class="dropdown-item" href="#" data-value="1">One</a></li>
+                <li><a class="dropdown-item" href="#" data-value="2">Two</a></li>
+                <li><a class="dropdown-item" href="#" data-value="3">Three</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const dropdownToggle = document.getElementById('dropdownMenuButton');
+            const dropdownMenu = document.querySelector('.dropdown-menu');
+
+            // Prevent dropdown from closing when clicking an item
+            dropdownMenu.addEventListener('click', function (event) {
+                event.stopPropagation(); // Stop the dropdown from closing
+                let selectedItem = event.target;
+                if (selectedItem.tagName === 'A') {
+                    dropdownToggle.textContent = selectedItem.textContent; // Set the button text to the selected option
+                }
+            });
+
+            // Close the dropdown if clicking outside of it
+            document.addEventListener('click', function (event) {
+                if (!dropdownMenu.contains(event.target) && !dropdownToggle.contains(event.target)) {
+                    dropdownMenu.classList.remove('show'); // Close the dropdown
+                }
+            });
+
+            // Toggle dropdown manually (since we are using a custom handler)
+            dropdownToggle.addEventListener('click', function () {
+                dropdownMenu.classList.toggle('show');
+            });
+        });
+    </script>
+
+</body>
+
+</html>
