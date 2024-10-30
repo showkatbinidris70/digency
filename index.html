@@ -1,632 +1,1037 @@
+<!--
+    Company Name: Nanoit
+    Project Name: Digency
+    Author: Nanoit
+    Version: 1.0
+    Created: 2024-10-06
+    Description: This is a digital agency website template.
+    License: Your License Information
+-->
+
+<!-- Digency Agency HTML Template -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang='zxx'>
 
 <head>
-    <!-- Stylesheets -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
 
-    <!-- font family -->
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Digital Agency - We provide the best digital solutions for your business.">
+  <meta name="keywords" content="Digincy Digital Agency, Web Design, SEO, Marketing, Creative Agency">
+  <meta name="author" content="Nanoit">
+  <title>Digency Html-5 - Responsive HTML5 Template</title>
+  <link rel="icon" href="./images/favicon-16x16.png" type="image/x-icon">
 
-    <!-- fontawesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Color Switcher Mockup -->
-    <!-- <link href="css/color-switcher-design.css" rel="stylesheet"> -->
-
-    <!-- Color Themes -->
-    <!-- <link id="theme-color-file" href="css/color-themes/default-theme.css" rel="stylesheet"> -->
-
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
-    <link rel="icon" href="images/favicon.png" type="image/x-icon">
-
-    <!-- Responsive -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#ffffff">
+  <meta property="og:title" content="Digital Agency">
+  <meta property="og:description" content="We provide the best digital solutions for your business.">
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:url" content="https://www.yourwebsite.com">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Digital Agency">
+  <meta name="twitter:description" content="We provide the best digital solutions for your business.">
+  <meta name="twitter:image" content="images/twitter-image.jpg">
+  <meta name="twitter:site" content="@yourtwitterhandle">
 
 
+  <!-- font family -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+
+  <!-- fontawesome 6.6.0-->
+  <link rel="stylesheet" href="fonts/all.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome.min.css">
+
+  <!-- slick slider css -->
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
 
 
-    <!-- CounterUp Plugin -->
-    <script src="https://cdn.jsdelivr.net/npm/jquery.counterup2@1.0.7/dist/jquery.counterup.min.js"></script>
-
-
-    <title>Digital Agency</title>
-    <style>
-
-    </style>
+  <!-- Stylesheets -->
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
+  <!-- header section start -->
+  <header id="header">
+    <div class="nav">
+      <div class="container">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid px-0">
+              <a class="navbar-brand" href="/">
+                <img src="images/main-logo.png" alt="Main Logo" class="img-fluid" style="height: 40px;">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!-- <span class="navbar-toggler-icon"></span> -->
+                <span><i class="fa-solid fa-bars fs-1"></i></span>
+              </button>
 
-    <!-- header section start -->
-
-    <header class="header">
-        <div class="nav">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-expand-lg navbar-light">
-                        <div class="container-fluid px-0">
-                            <a class="navbar-brand" href="/">
-                                <h3>Digency</h3>
-                            </a>
-                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                                aria-label="Toggle navigation">
-                                <!-- <span class="navbar-toggler-icon"></span> -->
-                                <span><i class="fa-solid fa-bars fs-1"></i></span>
-                            </button>
-
-                            <div class="collapse navbar-collapse" id="navbarNav">
-                                <ul class="navbar-nav ms-md-auto gap-2">
-                                    <li class="nav-item rounded">
-                                        <a class="nav-link active" aria-current="page" href="#hero"><i
-                                                class="bi bi-house-fill me-2"></i>Home</a>
-                                    </li>
-                                    <li class="nav-item rounded">
-                                        <a class="nav-link" href="#about"><i
-                                                class="bi bi-people-fill me-2"></i>About</a>
-                                    </li>
-                                    <li class="nav-item rounded">
-                                        <a class="nav-link" href="#services"><i
-                                                class="bi bi-people-fill me-2"></i>Service</a>
-                                    </li>
-                                    <li class="nav-item rounded">
-                                        <a class="nav-link" href="team.html"><i
-                                                class="bi bi-people-fill me-2"></i>Team</a>
-                                    </li>
-                                    <li class="nav-item rounded">
-                                        <a class="nav-link" href="contact-us.html"><i
-                                                class="bi bi-people-fill me-2"></i>Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-md-auto gap-2">
+                  <li class="nav-item rounded">
+                    <a class="nav-link active" aria-current="page" href="#hero-section">Home</a>
+                  </li>
+                  <li class="nav-item rounded">
+                    <a class="nav-link" href="#about-section">About</a>
+                  </li>
+                  <li class="nav-item rounded">
+                    <a class="nav-link" href="#service-section">Service</a>
+                  </li>
+                  <li class="nav-item rounded">
+                    <a class="nav-link" href="#projects">Projects</a>
+                  </li>
+                  <li class="nav-item rounded">
+                    <a class="nav-link" href="#team">Team</a>
+                  </li>
+                  <li class="nav-item rounded">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </nav>
         </div>
-    </header>
-    <!-- header section end -->
+      </div>
+    </div>
+  </header>
+  <!-- header section end -->
 
-    <!-- hero section start -->
-    <section class="hero-section d-flex align-items-center justify-content-center" id="hero">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6">
-                    <div class="sub-title d-flex align-items-center">
-                        <i class="fa-solid fa-forward"></i>
-                        <p class="m-0 p-0 px-2">Welcome
-                            to our agency
-                        </p>
-                        <i class="fa-solid fa-backward"></i>
-                    </div>
-                    <h1 class="hero-title">We are digital creative agency</h1>
-                    <p class="hero-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                        dolores quasi
-                        perspiciatis,
-                        nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
-                        pariatur quam perferendis praesentium earum.</p>
-                    <div class="d-flex align-items-center text-white justify-content-start gap-5 mt-5">
-                        <a class="btn cta-btn px-4 border-1 border-white">Contact
-                            Now</a>
-                        <button class="play-btn d-flex justify-content-center align-items-center"><i
-                                class="fa-solid fa-play fs-2"></i> </button>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 col-xxl-6 d-none d-lg-block">
-                    <div class="d-flex align-items-center justify-content-center h-100">
-                        <div class="position-relative">
-                            <div class=""> <img src="./images/h1-hero-left.jpg" alt="" srcset=""
-                                    class="img-fluid floating-img-delay">
-                            </div>
-                            <div class="position-absolute top-0 d-none d-xl-block"><img src="./images/hero-img-left.jpg"
-                                    alt="" srcset="" class="img-fluid floating-img-fast"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- hero section end -->
-
-    <!-- about section start -->
-    <section class="about-section" id="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5">
-                    <div class="position-relative">
-                        <div class="text-center text-sm-start"><img src="./images/h1-hero-left.jpg" alt="" srcset=""
-                                class="img-fluid about-img-fast rounded"></div>
-                        <div class="position-absolute top-0 d-none d-sm-block"> <img src="./images/hero-img-left.jpg"
-                                alt="" srcset="" class="img-fluid about-img-delay rounded"></div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
-                    <div class="sub-title d-flex align-items-center">
-                        <i class="fa-solid fa-forward"></i>
-                        <p class="m-0 p-0 px-2">Welcome
-                            to our agency
-                        </p>
-                        <i class="fa-solid fa-backward"></i>
-                    </div>
-                    <h2 class="mt-5">We Provide Best Design Solutions</h2>
-                    <p class="about-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
-                        dolores quasi perspiciatis,
-                        nesciunt nam corrupti voluptate tenetur at deleniti ut quis inventore ipsam dicta aspernatur
-                        pariatur quam perferendis praesentium earum.</p>
-                    <div class="d-flex align-items-center justify-content-start gap-3 mt-5">
-                        <a class="btn cta-btn px-4 border-1 border-white">Contact
-                            Now</a>
-                        <div class="align-items-center">
-                            <p class="m-0 fs-5">Call Now</p>
-                            <p class="m-0 fs-5">+8956524</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- about section end -->
-
-    <!-- counter up start -->
-    <section id="counter_up">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
-                    <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100">
-                        <h2 class="text-center"><span class="counter pe-2">800</span>+</h2>
-                        <p class="fs-4 py-2 text-center">Project</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
-                    <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100">
-                        <h2 class="text-center"><span class="counter pe-2">200</span>+</h2>
-                        <p class="fs-4 py-2 text-center">Team Members</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
-                    <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100">
-                        <h2 class="text-center"><span class="counter pe-2">15</span>+</h2>
-                        <p class="fs-4 py-2 text-center">Awards</p>
-                    </div>
-                </div>
-                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
-                    <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100">
-                        <h2 class="text-center"><span class="counter pe-2">10</span>+</h2>
-                        <p class="fs-4 py-2 text-center">Years Experience</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- counter up end -->
-
-    <section class="services" id="services">
-        <div class="container">
-            <div class="sub-title d-flex text-dark align-items-center justify-content-center gap-2">
+  <!-- hero section start -->
+  <section id="hero-section">
+    <div class="container">
+      <div class="row" style="margin: 100px 0;">
+        <div class="col-lg-6 d-flex align-items-center mb-5 mb-lg-0">
+          <div>
+            <div class="mt-5 mt-lg-0">
+              <div class="sub-title d-flex align-items-center">
                 <i class="fa-solid fa-forward"></i>
-                <p class="m-0">Welcome to our agency</p>
+                <div class="m-0 p-0 px-2">Welcome to our agency</div>
                 <i class="fa-solid fa-backward"></i>
+              </div>
             </div>
-            <h3 class="text-center py-3">Service We Provide</h3>
-            <div class="d-flex justify-content-center">
-                <div class="w-50">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio excepturi sunt recusandae
-                        explicabo
-                        dolorum porro quos consequatur animi voluptate culpa, error cumque quisquam reiciendis. Esse
-                        voluptates
-                        placeat eius earum.</p>
-                </div>
+            <h1 class="hero-title mt-3">We are digital creative agency</h1>
+            <p class="hero-description mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+              dolores quasi perspiciatis, nesciunt nam corrupti voluptate
+              tenetur at deleniti ut quis inventore ipsam dicta aspernatur
+              pariatur quam perferendis praesentium earum.
+            </p>
+            <div class="d-flex align-items-center text-white justify-content-start gap-5 mt-5">
+              <a class="btn cta-btn px-4 border-1 border-white" href="#contact">Contact Now</a>
+              <button class="play-btn d-flex justify-content-center align-items-center"
+                onclick="revealVideo('video','youtube')" title="Play Video">
+                <i class="fa-solid fa-play fs-2"></i>
+              </button>
             </div>
-            <div class="row mt-4">
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
-                        <i class="fa-brands fa-web-awesome fs-1"></i>
-                        <h2 class="text-center">Logo Design</h2>
-                        <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn btn-seconday">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
-                        <i class="fa-brands fa-web-awesome fs-1"></i>
-                        <h2 class="text-center">web Design</h2>
-                        <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn btn-seconday">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
-                        <i class="fa-brands fa-web-awesome fs-1"></i>
-                        <h2 class="text-center">Mob. Design</h2>
-                        <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn btn-seconday">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="py-5 px-2 rounded text-center" style="background-color: #e1e1e1;">
-                        <i class="fa-brands fa-web-awesome fs-1"></i>
-                        <h2 class="text-center">SEO Design</h2>
-                        <p class="fs-4 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                        </p>
-                        <div class="d-flex justify-content-end">
-                            <a class="btn btn-seconday">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-    </section>
-
-    <!-- our clients start -->
-    <section id="our_clients">
-        <div class="d-block d-md-flex justify-content-between align-items-center gap-3">
-            <div class="title">
-                <h2 class="text-nowrap px-3">Our Clients</h2>
+        <div class="col-lg-6 d-flex align-items-center justify-content-center">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="position-relative mt-5">
+              <div class="">
+                <img src="./images/h1-hero-left.jpg" alt="This is hero image" class="img-fluid floating-img-delay" />
+              </div>
+              <div class="position-absolute top-0">
+                <img src="./images/hero-img-left.jpg" alt="This is hero image" class="img-fluid floating-img-fast" />
+              </div>
             </div>
-            <div class="logos" style="overflow: hidden;">
-                <div class="slider">
-                    <div class="slide-track">
-                        <div class="slide">
-                            <img src="./images/2.png" class="img-fluid" alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                        <div class="slide">
-                            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img-fluid"
-                                alt="" />
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="container d-none">
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-4 col-xl-5 col-xxl-4">
-                    <div class="context-box">
-                        <h2>Our Clients</h2>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-8 col-xl-7 col-xxl-8">
-                    <div class="slider">
-                        <div class="slide-track">
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                            <div class="slide">
-                                <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" height="100"
-                                    width="250" alt="" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="video" class="lightbox" onclick="hideVideo('video','youtube')" style="z-index: 9999;">
+    <div class="d-flex justify-content-center align-items-center w-100" style="height: 100vh;">
+      <div class="lightbox-container">
+        <div class="lightbox-content">
+          <button onclick="hideVideo('video','youtube')" class="lightbox-close" data-toggle="lightbox">
+            <i class="fa-solid fa-xmark fs-1 lightbox-close-icon"></i>
+          </button>
         </div>
-    </section>
-    <!-- our clients end -->
-
-    <!-- faq start -->
-    <section id="faq">
-        <div class="container">
-            <div class="sub-title d-flex align-items-center justify-content-center">
-                <i class="fa-solid fa-forward"></i>
-                <p class="m-0 p-0 px-2">Frequent Asked Question </p>
-                <i class="fa-solid fa-backward"></i>
-            </div>
+        <div class="lightbox-fullscreen">
+          <div class="popup-bg"></div>
+          <div class="video-container">
+            <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/DFmhX5h6Lig"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen></iframe>
+          </div>
         </div>
-        <div class="d-block d-md-flex gap-4">
-            <div class="faq-left mt-5 mt-lg-0">
-                <img src="./images/h1-hero-right.jpg" class="img-fluid w-100" alt="" srcset="">
-            </div>
-            <div class="faq-right mt-5 mt-lg-0">
-                <div class="mt-2">
-                    <h2 class="">You Are Confused ?</h2>
-                    <h2 class="">Question & Answeres</h2>
-                    <div class="d-flex justify-content-start">
-                        <p class="mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla odio excepturi
-                            sunt
-                            recusandae
-                            explicabo
-                            dolorum porro quos consequatur animi voluptate culpa, error cumque quisquam
-                            reiciendis. Esse
-                            voluptates
-                            placeat eius earum.</p>
-                    </div>
-                </div>
-                <div class="accordion mt-2" id="accordionPanelsStayOpenExample">
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                                aria-controls="panelsStayOpen-collapseOne">
-                                Accordion Item #1
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                            aria-labelledby="panelsStayOpen-headingOne">
-                            <div class="accordion-body">
-                                <strong>This is the first item's accordion body.</strong> It is shown by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and
-                                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                our default variables. It's also worth noting that just about any HTML can go within
-                                the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseTwo">
-                                Accordion Item #2
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingTwo">
-                            <div class="accordion-body">
-                                <strong>This is the second item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and
-                                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                our default variables. It's also worth noting that just about any HTML can go within
-                                the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
-                    <div class="accordion-item">
-                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                                aria-controls="panelsStayOpen-collapseThree">
-                                Accordion Item #3
-                            </button>
-                        </h2>
-                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                            aria-labelledby="panelsStayOpen-headingThree">
-                            <div class="accordion-body">
-                                <strong>This is the third item's accordion body.</strong> It is hidden by default,
-                                until the collapse plugin adds the appropriate classes that we use to style each
-                                element. These classes control the overall appearance, as well as the showing and
-                                hiding via CSS transitions. You can modify any of this with custom CSS or overriding
-                                our default variables. It's also worth noting that just about any HTML can go within
-                                the <code>.accordion-body</code>, though the transition does limit overflow.
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- faq end -->
+      </div>
+    </div>
+  </div>
+  <!-- hero section end -->
 
-    <section class="projects" style="margin: 120px 0;">
-        <div class="container">
-            <div class="sub-title d-flex text-dark align-items-center justify-content-start gap-2">
-                <i class="fa-solid fa-forward"></i>
-                <p class="m-0">check out our client project</p>
-                <i class="fa-solid fa-backward"></i>
+  <!-- about section start -->
+  <section id="about-section" class="revel-content">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-5 col-xxl-5">
+          <div class="about-floating-img">
+            <div class="position-relative">
+              <div class="text-sm-start">
+                <img src="./images/h1-hero-left.jpg" alt="This is about section image"
+                  class="img-fluid about-img-fast rounded" />
+              </div>
+              <div class="position-absolute top-0">
+                <img src="./images/hero-img-left.jpg" alt="This is about section image"
+                  class="img-fluid about-img-delay rounded" />
+              </div>
             </div>
-            <h3 class="text-start py-3">Work Showcass</h3>
-
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8 col-xxl-8">
-                    <div class="w-100 position-relative" style="height: 350px; background-color: aliceblue;">
-                        <div class="bottom-box position-absolute "
-                            style="height: 200px; width: 350px; margin-top: 250px; background-color: rgba(250, 235, 215, 0.459); right: 50px;">
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-12 col-md-12 col-lg-4 col-xl-4 col-xxl-4">
-                    <div class="w-100" style="height: 350px; background-color: aliceblue;">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- footer start -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="mb-4 mb-lg-0">
-                        <h3>Digency</h3>
-                        <p class="footer-desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque sed
-                            laboriosam laborum
-                            distinctio dolor id quidem iste fugit, beatae corrupti corporis ab ad aliquid minima eaque
-                            deleniti eligendi aut totam.</p>
-                        <div class="social-icons d-flex gap-3">
-                            <i class="fa-brands fa-facebook"></i>
-                            <i class="fa-brands fa-youtube"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-x-twitter"></i>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="mb-4 mb-lg-0 list-style">
-                        <h3>Our Services</h3>
-                        <ul>
-                            <li class="mb-3">Digital Marketing</li>
-                            <li class="mb-3">Digital Marketing</li>
-                            <li class="mb-3">Digital Marketing</li>
-                            <li class="mb-3">Digital Marketing</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="mb-4 mb-lg-0 list-style">
-                        <h3>Recent Projects</h3>
-                        <ul>
-                            <li class="mb-3">Digital Marketing</li>
-                            <li class="mb-3">Digital Marketing</li>
-                            <li class="mb-3">Digital Marketing</li>
-                            <li class="mb-3">Digital Marketing</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
-                    <div class="mb-4 mb-lg-0 list-style">
-                        <h3>Get in Touch</h3>
-                        <ul>
-                            <li class="d-flex align-items-center justify-content-start gap-2 mb-2"><i
-                                    class="fa-solid fa-phone-volume"></i>
-                                <p class="m-0">+00-123-456-789</p>
-                            </li>
-                            <li class="d-flex align-items-center justify-content-start gap-2 mb-2"><i
-                                    class="fa-regular fa-envelope"></i>
-                                <p class="m-0">mail@webency.com</p>
-                            </li>
-                            <li class="d-flex align-items-center justify-content-start gap-2 mb-2"><i
-                                    class="fa-solid fa-location-dot"></i>
-                                <p class="m-0">Marion Street, Columbia</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <!-- footer bottom start -->
-            <div class="footer-bottom pt-4">
-                <div class="row">
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="content-box">
-                            <p class="m-0"> Copy right @<span id="year"></span></p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                        <div class="d-flex justify-content-md-end gap-3">
-                            <p class="m-0"> <a href="#">Privacy</a></p>
-                            <p class="m-0"> <a href="#">Terms & Conditions</a></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- footer bottom end -->
+          </div>
 
         </div>
-    </footer>
-    <!-- footer end -->
+        <div class="col-sm-12 col-md-12 col-lg-6 col-xl-7 col-xxl-7">
+          <div class="sub-title d-flex align-items-center revel-content">
+            <i class="fa-solid fa-forward"></i>
+            <div class="m-0 p-0 px-2">We provide best solutions</div>
+            <i class="fa-solid fa-backward"></i>
+          </div>
+          <h2 class="mt-4 revel-content text-dark">We Provide Best Design Solutions</h2>
+          <p class="about-description revel-content text-dark">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            dolores quasi perspiciatis, nesciunt nam corrupti voluptate
+            tenetur at deleniti ut quis inventore ipsam dicta aspernatur
+            pariatur quam perferendis praesentium earum.
+          </p>
+          <a class="btn cta-btn px-4 border-1 border-white revel-content" href="#contact">Contact Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- about section end -->
 
-    <!-- bootstrap 5 main.js-->
-    <script src="./js/bootstrap.js"></script>
 
-    <!-- jquery -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- service section start -->
+  <section id="service-section" class="revel-content">
+    <div class="container">
+      <div class="sub-title d-flex align-items-center justify-content-center gap-2 revel-content">
+        <i class="fa-solid fa-forward"></i>
+        <div class="m-0 ">Our Services</div>
+        <i class="fa-solid fa-backward"></i>
+      </div>
+      <h2 class="text-center pb-3 revel-content">Service We Provide</h2>
+      <div class="d-flex justify-content-center">
+        <div class="w-75">
+          <p class="revel-content">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+            odio excepturi sunt recusandae explicabo dolorum porro quos
+            consequatur animi voluptate culpa, error cumque quisquam
+            reiciendis. Esse voluptates placeat eius earum.
+          </p>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 mb-4">
+          <div class="card custom-card text-center p-4 p-xxl-5 bg-transparent">
+            <div class="icon mb-3">
+              <i class="fas fa-laptop-code fa-3x" style="color: #c59a35;"></i>
+            </div>
+            <h4 class="card-title">Web Design</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium eligendi
+              alias perferendis id non distinctio quasi.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 mb-4">
+          <div class="card custom-card text-center p-4 p-xxl-5 bg-transparent">
+            <div class="icon mb-3">
+              <i class="fas fa-code fa-3x" style="color: #c59a35;"></i>
+            </div>
+            <h4 class="card-title">Web Development</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium eligendi
+              alias perferendis id non distinctio quasi.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-6 col-xl-4 mb-4">
+          <div class="card custom-card text-center p-4 p-xxl-5 bg-transparent">
+            <div class="icon mb-3">
+              <i class="fas fa-bullhorn fa-3x" style="color: #c59a35;"></i>
+            </div>
+            <h4 class="card-title">Digital Marketing</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusantium eligendi
+              alias perferendis id non distinctio quasi.</p>
+            <a href="#" class="btn btn-primary">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- service section end -->
 
-    <!-- CounterUp Plugin version 1.0 -->
-    <script src="https://cdn.jsdelivr.net/jquery.counterup/1.0/jquery.counterup.min.js"></script>
+  <!-- projects section start -->
+  <section id="projects" class="revel-content">
+    <div class="container">
+      <div class="sub-title d-flex align-items-center justify-content-center">
+        <i class="fa-solid fa-forward"></i>
+        <div class="m-0 p-0 px-2">Check out our client project</div>
+        <i class="fa-solid fa-backward"></i>
+      </div>
+      <div class="d-flex justify-content-center">
+        <h2 class="text-start pb-3 text-dark">See Our Projects</h2>
+      </div>
+      <div class="projects-slider">
+        <div class="position-relative content-box mx-2">
+          <div class="project-img position-relative">
+            <img src="./images/h1-hero-left.jpg" class="img-fluid w-100 h-100" alt="This is Project Img" />
+            <div class="img-overlay position-absolute top-0 start-0 h-100 w-100"> </div>
+            <div class="position-absolute start-0 bottom-0 slider-content">
+              <h3 class="title">Interior Design</h3>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eveniet mollitia
+                numquam dolorum eos
+                impedit praesentium, ut earum rem asperiores sed suscipit quas possimus quam adipisci harum
+                necessitatibus totam dignissimos!</p>
+              <a class="btn cta-btn px-4 border-1 border-white" href="#">See project</a>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative content-box mx-2">
+          <div class="project-img position-relative">
+            <img src="./images/h1-hero-right.jpg" class="img-fluid w-100 h-100" alt="This is Project Img" />
+            <div class="img-overlay position-absolute top-0 start-0 h-100 w-100"></div>
+            <div class="position-absolute start-0 bottom-0 slider-content">
+              <h3 class="title">E-commerce</h3>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eveniet mollitia
+                numquam dolorum eos
+                impedit praesentium, ut earum rem asperiores sed suscipit quas possimus quam adipisci harum
+                necessitatibus totam dignissimos!</p>
+              <a class="btn cta-btn px-4 border-1 border-white" href="#">See project</a>
+            </div>
+          </div>
+          <div class="position-absolute end-0 bottom-0 project-content rounded d-none">
+            <div class="p-3 content">
+              <h6 class="text-center text-white">Web Development</h6>
+              <h3 class="text-center text-white">web design</h3>
+              <p class="text-white">
+                Free local dispatch for our gold and platinum members
+              </p>
+              <a href="#">Case Study
+                <span class="ps-2"><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative content-box mx-2">
+          <div class="project-img position-relative">
+            <img src="./images/couner-up-bg-img.jpg" class="img-fluid w-100 h-100" alt="This is Project Img" />
+            <div class="img-overlay position-absolute top-0 start-0 h-100 w-100"></div>
+            <div class="position-absolute start-0 bottom-0 slider-content">
+              <h3 class="title">Digital Marketing</h3>
+              <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis eveniet mollitia
+                numquam dolorum eos
+                impedit praesentium, ut earum rem asperiores sed suscipit quas possimus quam adipisci harum
+                necessitatibus totam dignissimos!</p>
+              <a class="btn cta-btn px-4 border-1 border-white" href="#">See project</a>
+            </div>
+          </div>
+          <div class="position-absolute end-0 bottom-0 project-content rounded d-none">
+            <div class="p-3 content">
+              <h6 class="text-center text-white">Web Development</h6>
+              <h3 class="text-center text-white">web design</h3>
+              <p class="text-white">
+                Free local dispatch for our gold and platinum members
+              </p>
+              <a href="#">Case Study
+                <span class="ps-2"><i class="fa-solid fa-arrow-right"></i></span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- projects section end -->
 
-    <!-- Waypoints (CounterUp dependency) -->
-    <script src="https://cdn.jsdelivr.net/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <!-- counter up start -->
+  <section id="counter_up" class="revel_content">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
+          <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100 revel-content">
+            <h2 class="text-center mt-4 mt-lg-3 mt-xl-0">
+              <span class="counter pe-2" data-count="300">0</span>+
+            </h2>
+            <p class="fs-4 py- text-center">Project</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
+          <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100 revel-content">
+            <h2 class="text-center mt-4 mt-lg-3 mt-xl-0">
+              <span class="counter pe-2" data-count="150">0</span>+
+            </h2>
+            <p class="fs-4 py-2 text-center">Team Members</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
+          <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100 revel-content">
+            <h2 class="text-center  mt-4 mt-lg-3 mt-xl-0"><span class="counter pe-2" data-count="15">0</span>+</h2>
+            <p class="fs-4 py-2 text-center">Awards</p>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3 mb-4 mb-xl-0">
+          <div class="card p-2 p-md-3 p-lg-4 p-xl-5 rounded h-100 w-100 revel-content">
+            <h2 class="text-center mt-4 mt-lg-3 mt-xl-0"><span class="counter pe-2" data-count="10">0</span>+</h2>
+            <p class="fs-4 py-2 text-center">Years Experience</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- counter up end -->
 
-    <script src="./js/main.js"></script>
+  <!-- faq start -->
+  <section id="faq" class="revel-content d-none">
+    <div class="container">
+      <div class="sub-title d-flex align-items-center justify-content-center revel-content">
+        <i class="fa-solid fa-forward"></i>
+        <div class="m-0 p-0 px-2">Frequent Asked Question</div>
+        <i class="fa-solid fa-backward"></i>
+      </div>
+    </div>
+    <div class="d-block d-md-flex gap-4">
+      <div class="faq-left mt-5 mt-lg-0">
+        <img src="./images/h1-hero-right.jpg" class="img-fluid w-100" alt="faq image" />
+      </div>
+      <div class="faq-right mt-4 mt-lg-0">
+        <div class="mt-2">
+          <h2 class="revel-content text-dark" style="font-size: 52px;">You Are Confused ?</h2>
+          <h2 class="revel-content text-dark" style="font-size: 52px;">Question & Answeres</h2>
+          <div class="d-flex justify-content-start">
+            <p class="mt-4 revel-content  text-dark">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
+              odio excepturi sunt recusandae explicabo dolorum porro quos
+              consequatur animi voluptate culpa, error cumque quisquam
+              reiciendis. Esse voluptates placeat eius earum.
+            </p>
+          </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                How are owners’ concerns handled?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class=" text-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                How are owners’ concerns handled?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class=" text-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                How are owners’ concerns handled?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p class=" text-dark">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="accordion mt-2  d-none" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                How are owners’ concerns handled?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo">
+                How are owners’ concerns handled?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo">
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree">
+                How are owners’ concerns handled?
+              </button>
+            </h2>
+            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree">
+              <div class="accordion-body">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                  ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  Duis aute irure dolor in reprehenderit in voluptate velit
+                  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                  occaecat cupidatat non proident, sunt in culpa qui officia
+                  deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- faq end -->
 
+  <!-- team section -->
+  <section id="team" class="team-section revel-content">
+    <div class="container">
+      <!-- Section Title and Sub-title -->
+      <div class="sub-title d-flex align-items-center justify-content-center">
+        <i class="fa-solid fa-forward"></i>
+        <div class="m-0 p-0 px-2">How We Work</div>
+        <i class="fa-solid fa-backward"></i>
+      </div>
+      <div class="d-flex justify-content-center">
+        <h2 class="mt-2 mb-3 text-dark">Meet Our Team</h2>
+      </div>
+      <!-- Team Cards -->
+      <div class="row">
+        <!-- Team Card 1 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+          <div class="team-card">
+            <img src="images/team-1.jpg" class="img-fluid" alt="Team Member" />
+            <div class="team-info text-center">
+              <h5 class="team-name">John Doe</h5>
+              <p class="team-title">UI/UX Designer</p>
+            </div>
+            <div class="team-social">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Team Card 2 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+          <div class="team-card">
+            <img src="images/team-2.jpg" class="img-fluid" alt="Team Member" />
+            <div class="team-info text-center">
+              <h5 class="team-name">Jane Smith</h5>
+              <p class="team-title">Front End Developer</p>
+            </div>
+            <div class="team-social">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Team Card 3 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+          <div class="team-card">
+            <img src="images/team-4.jpg" class="img-fluid" alt="Team Member" />
+            <div class="team-info text-center">
+              <h5 class="team-name">Mark Wilson</h5>
+              <p class="team-title">Back End Developer</p>
+            </div>
+            <div class="team-social">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- Team Card 4 -->
+        <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 mb-4 d-flex justify-content-center">
+          <div class="team-card">
+            <img src="images/team-3.jpg" class="img-fluid" alt="Team Member" />
+            <div class="team-info text-center">
+              <h5 class="team-name">Emily Johnson</h5>
+              <p class="team-title">Project Manager</p>
+            </div>
+            <div class="team-social">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
 
+    </div>
+
+    <!-- View All Button -->
+    <div class="text-center">
+      <!-- <a href="#" class="btn btn-view-all">View All</a> -->
+      <a class="btn cta-btn px-4 border-1 border-white" href="teams.html">View All</a>
+    </div>
+  </section>
+  <!-- team section end -->
+
+  <!-- our clients start -->
+  <section id="our_clients" class="revel-content">
+    <div class="sub-title d-flex align-items-center justify-content-center">
+      <i class="fa-solid fa-forward"></i>
+      <div class="m-0 p-0 px-2">With whom we work</div>
+      <i class="fa-solid fa-backward"></i>
+    </div>
+    <h2 class="mt-2 mb-3 text-dark text-center">Out Partners</h2>
+    <div class="d-block d-md-flex justify-content-between align-items-center gap-3">
+      <div class="container">
+        <div class="row">
+          <div class="logos" style="overflow: hidden">
+            <div class="slider">
+              <div class="slide-track">
+                <div class="slide">
+                  <img src="./images/2.png" class="img-fluid" alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/1.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/2.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/3.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/4.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/5.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/6.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+                <div class="slide">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/557257/7.png" class="img-fluid"
+                    alt="Our client's image" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- our clients end -->
+
+  <!-- testimonial section -->
+  <section id="testimonial" class="revel-content">
+    <div class="container">
+      <div class="sub-title d-flex align-items-center justify-content-center">
+        <i class="fa-solid fa-forward"></i>
+        <div class="m-0 p-0 px-2">Testimonials</div>
+        <i class="fa-solid fa-backward"></i>
+      </div>
+      <div class="d-flex justify-content-center">
+        <h2 class="text-center py-3 testimonial-main-title">
+          What Our Customer Say About Us
+        </h2>
+      </div>
+      <div class="d-flex gap-3 justify-content-center align-items-center">
+        <!-- <p class="w-50">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus ab commodi possimus molestiae soluta nobis
+          maiores dolorum, veritatis temporibus ducimus, laboriosam aliquid voluptatem. Molestias consequuntur quod, ab
+          cupiditate repellat laborum.</p> -->
+      </div>
+      <!-- Testimonial Carousel -->
+      <div class="testimonial-carousel">
+        <!-- Testimonial Card 1 -->
+        <div class="testimonial-card py-5 px-3 px-sm-3 px-md-3 px-lg-4 px-xl-5 h-100">
+          <div class="testimonial-header d-flex align-items-center">
+            <img src="images/team-4.jpg" alt="User Image" class="img-fluid rounded-circle me-3" />
+            <div class="testimonial-info">
+              <h5 class="testimonial-name">John Doe</h5>
+              <p class="testimonial-title">CEO, Tech Solutions</p>
+            </div>
+            <div class="testimonial-rating ms-auto d-none d-md-block d-lg-none d-xxl-block">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+            </div>
+          </div>
+          <div class="testimonial-review mt-3">
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Phasellus vehicula turpis in nunc egestas, at vestibulum augue
+              malesuada."
+            </p>
+          </div>
+        </div>
+
+        <!-- Testimonial Card 2 -->
+        <div class="testimonial-card py-5 px-3 px-sm-3 px-md-3 px-lg-4 px-xl-5 h-100">
+          <div class="testimonial-header d-flex align-items-center">
+            <img src="images/team-1.jpg" alt="User Image" class="img-fluid rounded-circle me-3" />
+            <div class="testimonial-info">
+              <h5 class="testimonial-name">Jane Smith</h5>
+              <p class="testimonial-title">
+                Marketing Manager, Creative Solutions
+              </p>
+            </div>
+            <div class="testimonial-rating d-none d-md-block d-lg-none d-xxl-block">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-review mt-3">
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor."
+            </p>
+          </div>
+        </div>
+        <div class="testimonial-card py-5 px-3 px-sm-3 px-md-3 px-lg-4 px-xl-5 h-100">
+          <div class="testimonial-header d-flex align-items-center">
+            <img src="images/team-2.jpg" alt="User Image" class="img-fluid rounded-circle me-3" />
+            <div class="testimonial-info">
+              <h5 class="testimonial-name">Jane Smith</h5>
+              <p class="testimonial-title">
+                Marketing Manager, Creative Solutions
+              </p>
+            </div>
+            <div class="testimonial-rating d-none d-md-block  d-lg-none d-xxl-block">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+          <div class="testimonial-review mt-3">
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor
+              auctor."
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- testimonial section end -->
+
+  <!-- Contact Start -->
+  <section id="contact" class="revel-content">
+    <div class="container">
+      <div class="sub-title d-flex align-items-center justify-content-center">
+        <i class="fa-solid fa-forward"></i>
+        <div class="m-0 p-0 px-2">Contact Us</div>
+        <i class="fa-solid fa-backward"></i>
+      </div>
+      <div class="d-flex justify-content-center">
+        <h2 class="text-center pb-3 text-dark contact-main-title ">
+          Have Any Query?
+          Please Contact Us!
+        </h2>
+      </div>
+      <div class="row g-4">
+        <div class="col-lg-4">
+          <div class="h-100 bg-light rounded d-flex align-items-center p-2 p-xl-3 p-xxl-4 gap-3">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+              style="width: 55px; height: 55px">
+              <i class="fa fa-map-marker-alt"></i>
+            </div>
+            <div>
+              <h4 class="mb-2 text-bold  text-dark">Address</h4>
+              <p class="mb-0  text-dark">123 Street, New York, USA</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="h-100 bg-light rounded d-flex align-items-center p-2 p-xl-3 p-xxl-4 gap-3">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+              style="width: 55px; height: 55px">
+              <i class="fa fa-phone-alt "></i>
+            </div>
+            <div>
+              <h4 class="mb-2 text-bold text-dark">Call Us Now</h4>
+              <p class="mb-0 text-dark">+012 345 6789</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="h-100 bg-light rounded d-flex align-items-center p-2 p-xl-3 p-xxl-4 gap-3">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center rounded-circle bg-white"
+              style="width: 55px; height: 55px">
+              <i class="fa fa-envelope-open "></i>
+            </div>
+            <div>
+              <h4 class="mb-2 text-bold text-dark">Mail Us Now</h4>
+              <p class="mb-0 text-dark">info@example.com</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+          <div class="bg-light rounded p-5">
+            <form>
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Your Name" />
+                    <label for="name">Your Name</label>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-floating">
+                    <input type="email" class="form-control" id="email" placeholder="Your Email" />
+                    <label for="email">Your Email</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <input type="text" class="form-control" id="subject" placeholder="Subject" />
+                    <label for="subject">Subject</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-floating">
+                    <textarea class="form-control" placeholder="Leave a message here" id="message"
+                      style="height: 100px"></textarea>
+                    <label for="message">Message</label>
+                  </div>
+                </div>
+                <div class="col-12">
+                  <button class="btn btn-primary w-100 py-3" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+          <div class="h-100" style="min-height: 400px">
+            <iframe class="rounded w-100 h-100"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
+              allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact End -->
+
+  <!-- footer start -->
+  <footer id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+          <div class="mb-4 mb-lg-0">
+            <img src="images/main-logo.png" alt="Main Logo" class="img-fluid mb-2" style="height: 40px;">
+            <p class="footer-desc">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
+              sed laboriosam laborum distinctio dolor id quidem iste fugit,
+              beatae corrupti corporis ab ad aliquid minima eaque deleniti
+              eligendi aut totam.
+            </p>
+            <div class="social-icons d-flex gap-3">
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-x-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+          <div class="mb-4 mb-lg-0 list-style">
+            <h3>Our Services</h3>
+            <ul>
+              <li class="mb-3">Digital Marketing</li>
+              <li class="mb-3">SEO Expert</li>
+              <li class="mb-3">Web Design</li>
+              <li class="mb-3">Web Development</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+          <div class="mb-4 mb-lg-0 list-style">
+            <h3>Recent Projects</h3>
+            <ul>
+              <li class="mb-3">Glasi Interior</li>
+              <li class="mb-3">Portfolio</li>
+              <li class="mb-3">E-commerce Website</li>
+              <li class="mb-3">Digital Marketing</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+          <div class="mb-4 mb-lg-0 list-style">
+            <h3>Get in Touch</h3>
+            <ul>
+              <li class="d-flex align-items-center justify-content-start gap-2 mb-2">
+                <i class="fa-solid fa-phone-volume"></i>
+                <p class="m-0">+00-123-456-789</p>
+              </li>
+              <li class="d-flex align-items-center justify-content-start gap-2 mb-2">
+                <i class="fa-regular fa-envelope"></i>
+                <p class="m-0">mail@webency.com</p>
+              </li>
+              <li class="d-flex align-items-center justify-content-start gap-2 mb-2">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="m-0">Marion Street, Columbia</p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- footer bottom start -->
+      <div class="footer-bottom pt-4">
+        <div class="row">
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="content-box">
+              <p class="m-0">Copyright @ <span id="year"></span></p>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            <div class="d-flex justify-content-md-end gap-3">
+              <p class="m-0"><a href="#">Privacy</a></p>
+              <p class="m-0"><a href="#">Terms & Conditions</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer bottom end -->
+    </div>
+  </footer>
+  <!-- footer end -->
+
+  <!-- jquery 3.6.0 (Must be loaded first) -->
+  <script src="js/jquery.min.js"></script>
+
+  <!-- bootstrap 5 main.js (Depends on jQuery) -->
+  <script src="js/bootstrap.js"></script>
+
+  <!-- slick slider js -->
+  <script type="text/javascript" src="js/slick.min.js"></script>
+
+  <!-- gsap -->
+  <script src="js/gsap.min.js"></script>
+  <script src="js/ScrollTrigger.min.js"></script>
+
+  <!-- gsap custom js -->
+  <script src="js/gsap.js"></script>
+
+  <!-- custom css -->
+  <script src="js/main.js"></script>
 
 </body>
 
