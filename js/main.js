@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let currentSection = "";
 
     document.querySelectorAll("section").forEach(function (section) {
-      const sectionTop = section.offsetTop - 80; // Adjust this value based on your header height
+      const sectionTop = section.offsetTop - 80;
       const sectionHeight = section.clientHeight;
 
       if (
@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
 
-    // Update the active class based on the current section in view
     navLinks.forEach((link) => {
       link.classList.remove("active");
       if (link.getAttribute("href") === `#${currentSection}`) {
@@ -92,6 +91,40 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//   const navLinks = document.querySelectorAll("nav a"); 
+//   window.addEventListener("scroll", function () {
+//     let currentSection = "";
+
+//     document.querySelectorAll("section").forEach(function (section) {
+//       const sectionTop = section.offsetTop - 80; 
+//       const sectionHeight = section.clientHeight;
+
+//       if (
+//         window.pageYOffset >= sectionTop &&
+//         window.pageYOffset <= sectionTop + sectionHeight
+//       ) {
+//         currentSection = section.getAttribute("id");
+//       }
+//     });
+
+//     navLinks.forEach((link) => {
+//       link.classList.remove("active");
+//       if (link.getAttribute("href") === `#${currentSection}`) {
+//         link.classList.add("active");
+//       }
+//     });
+//   });
+
+//   const tabLinks = document.querySelectorAll(".nav-link");
+//   tabLinks.forEach((link) => {
+//     link.addEventListener("shown.bs.tab", function (event) {
+//       tabLinks.forEach((tab) => tab.classList.remove("active"));
+//       event.target.classList.add("active");
+//     });
+//   });
+// });
 
 // navbar nav-link identify end
 

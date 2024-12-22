@@ -315,6 +315,10 @@ img {
   color: var(--text_primary) !important;
 }
 
+#header .navbar .navbar-nav .nav-link:hover {
+  color: var(--text_primary);
+}
+
 #header .navbar .navbar-toggler {
   background-color: var(--bg_primary);
 }
@@ -334,6 +338,10 @@ img {
 
 #header .nav-scrolled .navbar .navbar-nav .nav-link {
   color: var(--text_dark);
+}
+
+#header .nav-scrolled .navbar .navbar-nav .nav-link:hover {
+  color: var(--text_primary);
 }
 
 #header .nav-scrolled .navbar .navbar-brand {
@@ -1027,6 +1035,21 @@ img {
   border-bottom: 30px solid transparent;
 }
 
+#projects .nav .nav-item .nav-link {
+  color: var(--text_dark);
+  font-size: 18px;
+}
+
+#projects .nav .nav-item .nav-link:hover {
+  color: var(--text_primary);
+  font-size: 18px;
+}
+
+#projects .nav .nav-item .nav-link.active {
+  color: var(--text_primary);
+  border-bottom: 2px solid var(--bg_primary);
+}
+
 /* projects section end */
 
 /* our works start */
@@ -1052,7 +1075,7 @@ img {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.61);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1065,7 +1088,7 @@ img {
   opacity: 1;
 }
 
-#our-works .icon-link {
+.icon-link {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -1074,25 +1097,68 @@ img {
   z-index: 99;
 }
 
-#our-works .project-title-name {
+.project-title-name {
   position: absolute;
   left: 10px;
   bottom: 10px;
   z-index: 99;
 }
 
-#our-works .project-title {
+.project-title {
   color: var(--text_white);
 }
 
-#our-works .project-name {
+.project-name {
   color: var(--text_white);
 }
 
-#our-works .icon-plus {
+.icon-plus {
   color: var(--text_white);
   font-size: 2rem;
   cursor: pointer;
+}
+
+.model-img {
+  position: relative;
+}
+
+.model-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* background-color: #00000067; */
+}
+
+.carousel-control-next-icon {
+  background-color: #000;
+}
+
+.carousel-control-prev-icon {
+  background-color: #000;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--bg_primary);
+}
+
+.gallery-img-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.342);
+}
+
+.modal-content {
+  z-index: 9999 !important;
+}
+
+.modal-img-height {
+  height: 400px;
+  z-index: 9;
 }
 
 /* our works end */

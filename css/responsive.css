@@ -114,6 +114,10 @@
   #projects {
     padding: 100px 0;
   }
+  #our-works .modal-img-height {
+    height: 350px;
+    z-index: 9;
+  }
   #testimonial {
     padding: 100px 0;
   }
@@ -198,6 +202,10 @@
   }
   #projects {
     padding: 80px 0;
+  }
+  #our-works .modal-img-height {
+    height: 300px;
+    z-index: 9;
   }
   #testimonial {
     padding: 80px 0;
@@ -309,7 +317,10 @@
   #projects {
     padding: 60px 0;
   }
-
+  #our-works .modal-img-height {
+    height: 280px;
+    z-index: 9;
+  }
   #projects .projects-slider .content-box .slider-content {
     padding: 24px 100px;
   }
