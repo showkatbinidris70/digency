@@ -1042,13 +1042,13 @@ img {
 }
 
 #projects .nav .nav-item .nav-link:hover {
-  color: var(--text_primary);
+  color: var(--text_white);
   font-size: 18px;
 }
 
 #projects .nav .nav-item .nav-link.active {
-  color: var(--text_primary);
-  border-bottom: 2px solid var(--bg_primary);
+  color: var(--text_white);
+  /*border-bottom: 2px solid var(--bg_primary);*/
 }
 
 /* projects section end */
