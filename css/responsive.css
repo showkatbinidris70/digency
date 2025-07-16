@@ -283,7 +283,16 @@
   p {
     font-size: 16px;
   }
+/* header section start */
+#header .nav {
+  background-color: var(--bg_white);
+  border-bottom: 1px solid var(--text_primary);
+}
 
+#header .navbar .navbar-nav .nav-link {
+  color: var(--text_dark);
+  font-size: 18px;
+}
   /* all sections padding and margin  start*/
   #hero-section {
     padding: 10px 0;
